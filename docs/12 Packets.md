@@ -19,8 +19,8 @@ These can be sent to the client as follows:
 bot.SendClientPacket("packet", "type");
 ```
 
-## Misc packets
-### Send Whisper
+### Misc packets
+#### Send Whisper
 Sends whisper packet to the server
 
 ```csharp

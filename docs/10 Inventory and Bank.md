@@ -51,7 +51,5 @@ The player's bank can also be managed through `ScriptInterface#Bank`. However, b
 
 `void ToInventory(string name)` - Moves the given item from the player's bank to their inventory.
 
-`void StackGlitch(string item)` - **This is patched**. This used to perform the bank stack glitch to bypass standard stack sizes.
-
 ### Notes
 Inventory and bank management is typically done at the start of a script where options are set and skills are set up. It can also be done as quests are being completed or as drops are being picked up if inventory space is very limited. Remember to load the bank before attempting to transfer items from it.

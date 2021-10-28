@@ -13,6 +13,7 @@
 <a href="13 Examples">13. Examples</a><br>
 <a href="14 Script Options">14. Script Options</a><br>
 <a href="15 Plugins">15. Plugins</a><br>
+<a href="16 Removed">16. Removed/Patched</a><br>
 <br>
 <a href="Changes">Changelog</a><br>
 <br>

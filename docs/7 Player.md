@@ -108,15 +108,11 @@ Most of the bot's functionality is called through `ScriptInterface#Player`. Ther
 
 `void KillPlayer(string name)` - Attacks the specified player until they are dead.
 
-`void AddTempItem(string name, int num = 100)` - **This has been patched**. This used to give the player as much of the specified temporary item as they wanted.
-
 `void UseSkill(int index)` - Uses the skill at the given index.
 
 `void Jump(string cell, string pad)` - Jumps to the specified cell and pad.
 
 `void Join(string map, string cell = "Enter", string pad = "Spawn")` - Joins the map and jumps to the specified cell and pad (you need not specify the cell and pad as they have default values). This method will keep attempting to join the specified map with a 2.5 second delay until it succeeds.
-
-`void JoinGlitched(string map)` - Attempts to join a glitched room (decrements the room number until success). This just calls `Join(map + "--9999")` and then `Join(map + "--9998")` and so on.
 
 `void Goto(string name)` - Goes to the specified player.
 
