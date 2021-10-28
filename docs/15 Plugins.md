@@ -21,13 +21,13 @@ public class TestPlugin : RPlugin
     public override void Load()
     {
         // Called when the plugin is loaded.
-        Bot.Log("Test plugin lodaed.");
+        Bot.Log("Test plugin loaded.");
     }
 
     public override void Unload()
     {
         // Called when the plugin is unloaded.
-        Bot.Log("Test plugin unlodaed.");
+        Bot.Log("Test plugin unloaded.");
     }
 }
 ```
@@ -56,7 +56,7 @@ public class TestPlugin : RPlugin
     public override void Load()
     {
         // Called when the plugin is loaded.
-        Bot.Log("Test plugin lodaed.");
+        Bot.Log("Test plugin loaded.");
 
         if(Container.Options.Get<bool>("test"))
             Bot.Log("Test option is enabled.");
@@ -65,7 +65,7 @@ public class TestPlugin : RPlugin
     public override void Unload()
     {
         // Called when the plugin is unloaded.
-        Bot.Log("Test plugin unlodaed.");
+        Bot.Log("Test plugin unloaded.");
     }
 }
 ```
