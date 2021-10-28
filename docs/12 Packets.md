@@ -18,3 +18,5 @@ These can be sent to the client as follows:
 ```csharp
 bot.SendClientPacket("packet", "type");
 ```
+
+## Misc packets
