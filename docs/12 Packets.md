@@ -20,3 +20,28 @@ bot.SendClientPacket("packet", "type");
 ```
 
 ## Misc packets
+### Send Whisper
+Sends whisper packet to the server
+
+```csharp
+bot.SendWhisper("name", "message")
+```
+
+### Sending message packet
+Message type defaults to `"zone"`
+`SentBy` has a `"SERVER"` option that sends the message without a username
+
+There are 7 message types:
+- `moderator`
+- `warning`
+- `server`
+- `event`
+- `guild`
+- `zone`
+- `whisper`
+
+These can be sent to client as follows:
+
+```csharp
+bot.SendMSGPacket("message", "sentBy", "messageType")
+```
