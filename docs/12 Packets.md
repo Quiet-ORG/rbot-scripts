@@ -24,12 +24,13 @@ bot.SendClientPacket("packet", "type");
 Sends whisper packet to the server
 
 ```csharp
-bot.SendWhisper("name", "message")
+bot.SendWhisper("name", "message");
 ```
 
 ### Sending message packet
-Message type defaults to `"zone"`
 `SentBy` has a `"SERVER"` option that sends the message without a username
+
+`MessageType` defaults to `"zone"`
 
 There are 7 message types:
 - `moderator`
@@ -43,5 +44,5 @@ There are 7 message types:
 These can be sent to client as follows:
 
 ```csharp
-bot.SendMSGPacket("message", "sentBy", "messageType")
+bot.SendMSGPacket("message", "sentBy", "messageType");
 ```
