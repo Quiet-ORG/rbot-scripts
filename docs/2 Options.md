@@ -1,8 +1,10 @@
 Options
 ======
+
 The bot has a range of options that can be changed through the script interface. Some of these options can be changed through the UI as well. Changes to options in a script will update their state in the UI accordingly.
 
 #### Boolean Options
+
 These options can be set to `true` or `false` (enabled or disabled).
 
 `SafeTimings` - Forces the bot to wait for any action taken to complete before continuing execution of the script, with a 5 second timeout
@@ -35,7 +37,9 @@ These options can be set to `true` or `false` (enabled or disabled).
 
 `SafeRelogin` - Causes a 75 second delay before attempting a relogin. This is typically unnecessary to use.
 
+[d]
 #### Other Options
+
 These options have various types and can be set accordingly.
 
 `RunOnExit` - A string that, if set, will indicate a program to run when the script finishes.
@@ -48,7 +52,11 @@ These options have various types and can be set accordingly.
 
 `CustomName` - Sets the player's name on the client side.
 
+`NameColor` - Sets the color of your name with HEX (0xFFFFFF)
+
 `CustomGuild` - Sets the player's guild on the client side.
+
+`NameColor` - Sets the color of your guild name with HEX (0xFFFFFF)
 
 Some options can be set through the UI. All options can be set programatically in a script as follows:
 
@@ -57,9 +65,9 @@ using RBot;
 
 public void ScriptMain(ScriptInterface bot)
 {
-	bot.Options.SafeTimings = true;
-	bot.Options.InfiniteRange = true;
-	bot.Options.CustomName = "ARTIX";
+ bot.Options.SafeTimings = true;
+ bot.Options.InfiniteRange = true;
+ bot.Options.CustomName = "ARTIX";
 }
 ```
 
