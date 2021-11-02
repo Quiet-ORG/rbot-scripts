@@ -9,6 +9,12 @@ You can query and manage the player's inventory through `ScriptInterface#Invento
 #### Properties
 `List<Item> Items` - The player's inventory as a list of items.
 
+`int Slots` - The total number of inventory slots the player has.
+
+`int UsedSlots` - The numer of inventory slots currently occupied by the player.
+
+`int FreeSlots` - Calculates `Slots - UsedSlots`.
+
 `List<TempItem> TempItems` - The player's temporary inventory as a list of temp items.
 
 #### Methods
