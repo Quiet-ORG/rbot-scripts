@@ -37,7 +37,6 @@ These options can be set to `true` or `false` (enabled or disabled).
 
 `SafeRelogin` - Causes a 75 second delay before attempting a relogin. This is typically unnecessary to use.
 
-[d]
 #### Other Options
 
 These options have various types and can be set accordingly.
@@ -65,9 +64,9 @@ using RBot;
 
 public void ScriptMain(ScriptInterface bot)
 {
- bot.Options.SafeTimings = true;
- bot.Options.InfiniteRange = true;
- bot.Options.CustomName = "ARTIX";
+	bot.Options.SafeTimings = true;
+	bot.Options.InfiniteRange = true;
+	bot.Options.CustomName = "ARTIX";
 }
 ```
 
