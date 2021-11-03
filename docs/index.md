@@ -15,11 +15,7 @@
 [15. Plugins][ref15]<br>
 [16. Removed/Patched Features][ref16]<br>
 
-<br>
-
 [Changes][ref17]
-
-<br>
 
 Don't use the drop grabber (bot.Drops), it's dogshit :)
 
