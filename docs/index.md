@@ -1,40 +1,21 @@
 [1. Intro][ref1]
-
 [2. Options][ref2]
-
 [3. Timings][ref3]
-
 [4. Monsters][ref4]
-
 [5. Skills][ref5]
-
 [6. Shops][ref6]
-
 [7. Player(s)][ref7]
-
 [8. Quests][ref8]
-
 [9. Map][ref9]
-
 [10. Inventory and Bank][ref10]
-
 [11. Events][ref11]
-
 [12. Packets][ref12]
-
 [13. Examples][ref13]
-
 [14. Script Options][ref14]
-
 [15. Plugins][ref15]
-
 [16. Removed/Patched Features][ref16]
 
-##
-
 [Changes][ref17]
-
-##
 
 Don't use the drop grabber (bot.Drops), it's dogshit :)
 
