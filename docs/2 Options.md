@@ -55,7 +55,7 @@ These options have various types and can be set accordingly.
 
 `CustomGuild` - Sets the player's guild on the client side.
 
-`NameColor` - Sets the color of your guild name with HEX (0xFFFFFF)
+`GuildColor` - Sets the color of your guild name with HEX (0xFFFFFF)
 
 Some options can be set through the UI. All options can be set programatically in a script as follows:
 
