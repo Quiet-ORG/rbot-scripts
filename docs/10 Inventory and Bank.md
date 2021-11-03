@@ -4,9 +4,11 @@ Inventory and Bank
 The player's inventory and bank can be managed through `ScriptInterface#Inventory` and `ScriptInterface#Bank` respectively.
 
 ### Inventory
+
 You can query and manage the player's inventory through `ScriptInterface#Inventory`.
 
 #### Properties
+
 `List<Item> Items` - The player's inventory as a list of items.
 
 `int Slots` - The total number of inventory slots the player has.
@@ -18,6 +20,9 @@ You can query and manage the player's inventory through `ScriptInterface#Invento
 `List<TempItem> TempItems` - The player's temporary inventory as a list of temp items.
 
 #### Methods
+
+`bool IsEquipped(string name)` - Checks if the given item is equipped.
+
 `bool Contains(string item, int quantity = 1)` - Checks whether the player's inventory contains the specified item in the specified quantity.
 
 `bool ContainsTempItem(string item, int quantity = 1)` - Checks whether the player's inventory contains the specified temp item in the specified quantity.
@@ -36,12 +41,14 @@ You can query and manage the player's inventory through `ScriptInterface#Invento
 
 `void DeleteItem(string name, int quantity)` - Deletes the item from the player's inventory in the given quantity.
 
-`void BankAllCoinItems()` - Transfers all AC items to the bank from the player's inventory. This is useful at the start of a script to free up inventory space.
+`void BankAllCoinItems()` - Transfers all AC items to the bank from the player's inventory. This is useful at the start of a script to free up inventory space. (Don't use this)
 
 ### Bank
+
 The player's bank can also be managed through `ScriptInterface#Bank`. However, before using this object, you should load the player's bank through `ScriptPlayer#LoadBank`. The client will otherwise think the bank is empty. The bank should typically be loaded at the start of the script.
 
 #### Properties
+
 `List<Item> BankItems` - The player's bank as a list of items.
 
 `int Slots` - The total number of bank slots the player has.
@@ -51,6 +58,7 @@ The player's bank can also be managed through `ScriptInterface#Bank`. However, b
 `int FreeSlots` - Calculates `Slots - UsedSlots`.
 
 #### Methods
+
 `bool Contains(string item, int quantity = 1)` - Checks if the bank contains the given item in the given quantity.
 
 `void Swap(string invItem, string bankItem)` - Swaps the item with name `invItem` in the player's inventory with the item with name `bankItem` in the player's bank.
@@ -58,4 +66,5 @@ The player's bank can also be managed through `ScriptInterface#Bank`. However, b
 `void ToInventory(string name)` - Moves the given item from the player's bank to their inventory.
 
 ### Notes
+
 Inventory and bank management is typically done at the start of a script where options are set and skills are set up. It can also be done as quests are being completed or as drops are being picked up if inventory space is very limited. Remember to load the bank before attempting to transfer items from it.
