@@ -28,7 +28,7 @@ Don't use the drop grabber (bot.Drops), it's dogshit :)
 [ref7]: 7%20Player "RBot Script Player(s)"
 [ref8]: 8%20Quests "RBot Script Quests"
 [ref9]: 9%20Map "RBot Script Maps"
-[ref10]: 10%20Inventory%20and%Bank "RBot Script Inventory and Bank"
+[ref10]: 10%20Inventory%20and%20Bank "RBot Script Inventory and Bank"
 [ref11]: 11%20Events "RBot Events"
 [ref12]: 12%20Packets "RBot Packets"
 [ref13]: 13%20Examples "Example Scripts"
