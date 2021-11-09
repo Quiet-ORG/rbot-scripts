@@ -3,7 +3,6 @@ Changes
 
 ## Version 3.7
 
----
 ### UI
 
 Almost every UI element is now TelerikUI Visual Studio Dark
@@ -88,8 +87,6 @@ bot.SendMSGPacket("message", "sentBy", "messageType");
 
 ## Version 2.3
 
----
-
 #### Skill Patterns
 
 There is now a way to define ordered skill patterns using skill pattern definition files. They are very simple and contain 3 commands:
@@ -132,8 +129,6 @@ RBot now has the ability to check for updates using github, which will now be my
 ---
 
 ### Version 2.2.1
-
----
 
 #### Script Options Changes
 
@@ -185,8 +180,6 @@ As usual, I have probably made other changes/features that I have forgotten abou
 ---
 
 ### Version 2.2
-
----
 
 #### ScriptInterface Changes
 
