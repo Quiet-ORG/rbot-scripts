@@ -128,7 +128,7 @@ RBot now has the ability to check for updates using github, which will now be my
 
 ---
 
-### Version 2.2.1
+## Version 2.2.1
 
 #### Script Options Changes
 
@@ -179,7 +179,7 @@ As usual, I have probably made other changes/features that I have forgotten abou
 
 ---
 
-### Version 2.2
+## Version 2.2
 
 #### ScriptInterface Changes
 
