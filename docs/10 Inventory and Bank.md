@@ -15,7 +15,7 @@ You can query and manage the player's inventory through `ScriptInterface#Invento
 
 `int Slots` - The total number of inventory slots the player has.
 
-`int UsedSlots` - The numer of inventory slots currently occupied by the player.
+`int UsedSlots` - The number of inventory slots currently occupied by the player.
 
 `int FreeSlots` - Calculates `Slots - UsedSlots`.
 
@@ -53,7 +53,7 @@ The player's bank can also be managed through `ScriptInterface#Bank`. However, b
 
 `int Slots` - The total number of bank slots the player has.
 
-`int UsedSlots` - The numer of bank slots currently occupied by the player.
+`int UsedSlots` - The number of bank slots currently occupied by the player.
 
 `int FreeSlots` - Calculates `Slots - UsedSlots`.
 

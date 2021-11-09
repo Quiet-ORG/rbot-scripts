@@ -37,13 +37,17 @@ These options can be set to `true` or `false` (enabled or disabled).
 
 `SafeRelogin` - Causes a 75 second delay before attempting a relogin. This is typically unnecessary to use.
 
+`DisableDeathAds` - Disables the death AD.
+
 #### Other Options
 
 These options have various types and can be set accordingly.
 
 `RunOnExit` - A string that, if set, will indicate a program to run when the script finishes.
 
-`WalkSpeed` - An integer that sets the player's walking speed. The default is `8` and the maximum is `32`.
+`WalkSpeed` - An `int` that sets the player's walking speed. The default is `8` and the maximum is `32`.
+
+`SetFPS` - An `int` that sets the games FPS (frames per second) The default is `30`
 
 `LoadTimeout` - The time in milliseconds that the game is allowed to load before it is considered to be a timeout, and an autorelogin is triggered. The default is `10000` (10 seconds).
 
@@ -64,9 +68,9 @@ using RBot;
 
 public void ScriptMain(ScriptInterface bot)
 {
-	bot.Options.SafeTimings = true;
-	bot.Options.InfiniteRange = true;
-	bot.Options.CustomName = "ARTIX";
+    bot.Options.SafeTimings = true;
+    bot.Options.InfiniteRange = true;
+    bot.Options.CustomName = "ARTIX";
 }
 ```
 
