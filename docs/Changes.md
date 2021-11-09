@@ -1,5 +1,4 @@
-Changes
-=========
+# Changes
 
 ## Version 3.7
 
