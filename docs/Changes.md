@@ -7,19 +7,19 @@ Changes
 
 Almost every UI element is now TelerikUI Visual Studio Dark
 
-##### Script Menu
+#### Script Menu
 
 You can now open logs and script folder from the scripts menu
 
 ### Options & Options Menu
 
-##### Menu
+#### Menu
 
 Staff & Upgrade options now change colors + Staff now works
 
 Added a way to check inv/bank space in the options menu.
 
-##### Source
+#### Source
 
 - `bot.Options.DisableDeathAds = boolean` - Disables the death AD.
 
@@ -37,7 +37,7 @@ You can now change the color of both your username and guild name:
 
 ### Inventory and Bank
 
-##### Inventory
+#### Inventory
 
 You can now check the inventory space:
 
@@ -47,13 +47,13 @@ You can now check the inventory space:
 
 - `bot.Inventory.FreeSlots` - Calculates `Slots - UsedSlots`.
 
-##### Bank
+#### Bank
 
 Bank space checking has been fixed
 
 ### Misc Packets
 
-##### Send Whisper
+#### Send Whisper
 
 Sends whisper packet to the server
 
@@ -61,7 +61,7 @@ Sends whisper packet to the server
 bot.SendWhisper("name", "message");
 ```
 
-##### Send Message Packet (client side)
+#### Send Message Packet (client side)
 
 `SentBy` has a `"SERVER"` option that sends the message without a username
 
