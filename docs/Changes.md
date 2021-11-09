@@ -20,17 +20,21 @@ Staff & Upgrade options now change colors + Staff now works
 
 Added a way to check inv/bank space in the options menu.
 
-##### SetFPS
+##### Source
+
+- `bot.Options.DisableDeathAds = boolean` - Disables the death AD.
 
 - `bot.Options.SetFPS = int` - Changes game FPS (frames per second)
 
-##### Name & Guild colors
-
 You can now change the color of both your username and guild name:
 
-- `bot.Options.NameColor` - Sets the color of your name with HEX (0xFFFFFF)
+- `bot.Options.NameColor = 0xFFFFFF` - Sets the color of your name with HEX (0xFFFFFF)
 
-- `bot.Options.GuildColor` - Sets the color of your guild name with HEX (0xFFFFFF)
+- `bot.Options.GuildColor = 0xFFFFFF` - Sets the color of your guild name with HEX (0xFFFFFF)
+
+### Player
+
+- `bot.Player.Join()` - when joining tercessuinotlim it'll now jump to cell:`m22` pad:`Center` then joins tercess so you don't have to make a work around anymore
 
 ### Inventory and Bank
 
